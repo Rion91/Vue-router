@@ -6,7 +6,7 @@
         <div class="card-body text-center">
           <img src="@/assets/user.png" alt="Profile image" style="width: 100px;height: 100px">
           <h1 class="mt-3">Mg Mg</h1>
-          <p class="mt-5">mgmg@gmail.com</p>
+          <p class="mt-4">mgmg@gmail.com</p>
           <p>1234567890</p>
         </div>
         <div class="card-footer">
@@ -20,6 +20,8 @@
 
 <script>
 export default {
-
+  created(){
+    console.log("Profile page")
+  }
 }
 </script>
